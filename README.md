@@ -8,7 +8,7 @@ classDiagram
     User "1" -- "1" Account: possui
     User "1" -- "*" Pet: possui
     class User {
-        +String user
+        +String username
     }
     class Account {
         +String nick

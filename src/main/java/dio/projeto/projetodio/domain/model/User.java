@@ -19,7 +19,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long ID;
 
-    private String user;
+    private String username;
 
     @OneToOne(cascade = CascadeType.ALL)
     private Account account;
@@ -30,11 +30,11 @@ public class User {
 
      // getters and setters
 
-    public String getUser() {
-        return user;
+    public String getUsername() {
+        return username;
     }
-    public void setUser(String user) {
-        this.user = user;
+    public void setUsername(String username) {
+        this.username = username;
     }
     public Account getAccount() {
         return account;

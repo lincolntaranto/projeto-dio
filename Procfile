@@ -1,0 +1,1 @@
+web: java -jar build/libs/projeto-dio-0.0.1-SNAPSHOT.jar
